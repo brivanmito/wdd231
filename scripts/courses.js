@@ -81,35 +81,41 @@ const courses = [
 // GET THE HTML ELEMENT
 const container = document.querySelector("#software-courses");
 const buttons = document.querySelectorAll("#student-courses button");
+const totalCreditsElement = document.querySelector("#total-credits"); // un span o div para mostrar créditos
 
 // Función para mostrar los cursos
 function showCourses(list) {
-    container.innerHTML = ""; // limpiar
-    
-    let totalCredits = 0;
+  container.innerHTML = ""; // limpiar
+  let totalCredits = 0;
 
   list.forEach(c => {
     const btn = document.createElement("button");
+    btn.type = "button"; // accesibilidad
     btn.textContent = `${c.subject} ${c.number} - ${c.title}`;
+    btn.setAttribute("aria-label", `${c.subject} ${c.number} - ${c.title}`);
 
     // Asignar clase según completado
     if (c.completed) {
-        btn.classList.add("completed");
-        
-        totalCredits += c.credits;
+      btn.classList.add("completed");
     } else {
       btn.classList.add("not-completed");
     }
 
-    // Toggle hide al hacer click en el botón
+    // Toggle hide al hacer click
     btn.addEventListener("click", () => {
       btn.classList.toggle("hide");
     });
 
     container.appendChild(btn);
+
+    // Sumar créditos
+    totalCredits += c.credits;
   });
-    
-    document.querySelector("#total-credits").textContent = `Total credits: ${totalCredits}`;
+
+  // Mostrar créditos totales
+  if (totalCreditsElement) {
+    totalCreditsElement.textContent = `Créditos totales: ${totalCredits}`;
+  }
 }
 
 // Evento de filtrado
