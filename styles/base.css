@@ -1,8 +1,13 @@
 :root {
-    --primary-color: #F2F2F2;
-    --secondary-color: #0D0D0D;
-    --primary-accent-color: #EDF25E;
-    --secondary-accent-color: #A094F2;
+    /* --primary-color: #0C172F;
+    --secondary-color: #DF6283;
+    --primary-accent-color: #FCFCA4;
+    --secondary-accent-color: #6D3263; */
+
+    --primary-color: #2b2d42;
+    --secondary-color: #6492e2;
+    --accent-color: #38040e;
+    --accent-color-two: #b9daf5;
 }
 
 * {
@@ -10,3 +15,221 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f7f3fa;
+}
+
+main {
+    background-color: #e9ebf7;
+}
+
+/******************** HEADER ***********************/
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+    color: var(--accent-color);
+    background-color: #e8e6ea;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    align-self: center;
+}
+
+/**************** HAMBURGUER NAVIGATION ***************/
+
+.hamburguer {
+    background: none;
+    border: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    /* font-family: ; */
+}
+
+.hamburguer::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburguer.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+/******************* NAVIGATION BAR  ******************/
+
+.navigation {
+    display: none;
+    background-color: #ffffff;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.navigation li.current {
+    background-color: var(--accent-color-two);
+}
+
+.current a {
+    color: var(--accent-color);
+}
+
+.navigation a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    transform: scale(1.05);
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 1rem 0 1rem 10px;
+    color: var(--accent-color);
+}
+
+/******************* SITE FOOTER  *******************/
+
+footer {
+    padding: 1.5rem 0 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 0px solid #38040e;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: var(--secondary-color) dashed 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social img:hover {
+    background-color: var(--accent-color-two);
+}
+
+.social a:hover {
+    background-color: var(--accent-color-two);
+}
+
+#updated {
+    background-color: #e8e6ea;
+    padding: 1rem;
+    height: 100%;
+}
+
+#updated p {
+    padding: 10px;
+}
+
+/************* CODE FOR GRID CONTAINER  **********/
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+
+    padding: 0 10px 10px;
+    row-gap: 10px;
+}
+
+.container-styles {
+    width: 100%;
+    background-color: var(--accent-color-two);
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-styles h2 {
+    padding: .8rem;
+    width: 100%;
+    color: #f7f3fa;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.container-styles div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+/************* CONTENT OF THE CONTAINERS ***********/
+
+#student-photo {
+    display: flex;
+    flex-direction: column;
+    /* h2 arriba, foto abajo */
+    height: 100%;
+    text-align: center;
+}
+
+
+#photo-container {
+    flex: 1;
+    /* ocupa todo el espacio restante */
+    width: 100%;
+    /* centra verticalmente */
+}
+
+#photo-container img {
+    width: 25%;
+    height: auto;
+}
+
+
+
