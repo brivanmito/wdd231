@@ -285,6 +285,10 @@ button.completed{
 button.not-completed {
     background-color: rgb(190, 99, 99);
 }
+button.not-completed, button.completed {
+    border: none;
+    border-radius: 5px;
+}
 
 
 
