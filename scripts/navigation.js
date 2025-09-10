@@ -7,10 +7,5 @@ navButton.addEventListener('click',() => {
     navBar.classList.toggle('show');
 })
 
-const studentInfo = document.querySelector("#year");
 
-const year = new Date().getFullYear();
 
-document.querySelector("#currentYear").textContent = year;
-
-document.querySelector("#last-modified").textContent = `Last modified: ${document.lastModified}`;

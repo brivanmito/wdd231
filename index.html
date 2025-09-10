@@ -22,8 +22,18 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
      <!-- JS SCRIPTS -->
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 
 
 </head>
@@ -37,7 +47,7 @@
         <ul>
             <li class="current"><a href="#">Home</a></li>
             <li><a href="">Chamber Project</a></li>
-            <li><a href="">Chamber Project</a></li>
+            <li><a href="">Final Project</a></li>
         </ul>
     </nav>
     <main>
@@ -62,7 +72,12 @@
             <section id="student-courses" class="container-styles">
                 <h2>Web Certificate Courses</h2>
                 <div>
-                    <p>iiiiiiiiiii</p>
+                    <button class="certificates-btn" value="All">All</button>
+                    <button class="certificates-btn" value="CSE">CSE</button>
+                    <button class="certificates-btn" value="WDD">WDD</button>
+                </div>
+                <p id="total-credits"></p>
+                <div id="software-courses">
                 </div>
             </section>
         </div>
