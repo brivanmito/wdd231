@@ -200,7 +200,7 @@ footer {
 .container-styles h2 {
     padding: .8rem;
     width: 100%;
-    color: #f7f3fa;
+    color: var(--accent-color);
     background-color: var(--secondary-color);
     text-align: center;
 }
