@@ -273,9 +273,6 @@ footer {
     margin: 5px;
 }
 
-#student-courses div:nth-of-type(2).toggle {
-    display: none;
-}
 
 
 button.completed{
