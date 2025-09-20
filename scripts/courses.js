@@ -95,16 +95,12 @@ function showCourses(list) {
     btn.setAttribute("aria-label", `${c.subject} ${c.number} - ${c.title}`);
 
     // Asignar clase según completado
+    //Asigna colores segun las materias
     if (c.completed) {
       btn.classList.add("completed");
     } else {
       btn.classList.add("not-completed");
     }
-
-    // Toggle hide al hacer click
-    btn.addEventListener("click", () => {
-      btn.classList.toggle("hide");
-    });
 
     container.appendChild(btn);
 
@@ -118,15 +114,27 @@ function showCourses(list) {
   }
 }
 
+let activeFilter = null;
+
 // Evento de filtrado
 buttons.forEach(button => {
   button.addEventListener("click", () => {
     const filter = button.value.toLowerCase();
+
+    if (activeFilter === filter) {
+      container.innerHTML = ""; // limpiar cursos
+      totalCreditsElement.textContent = ""; // limpiar créditos
+      activeFilter = null; // ningún filtro activo
+      return;
+    }
 
     if (filter === "all") {
       showCourses(courses);
     } else {
       showCourses(courses.filter(c => c.subject.toLowerCase() === filter));
     }
+
+    //HACER MAGIA
+    activeFilter = filter;
   });
 });
