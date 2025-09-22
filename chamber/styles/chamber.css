@@ -7,12 +7,95 @@
 /* COLORS */
 
 :root{
-    --primary-color: #fca311;
+    --primary-color: #FFC328;
     --secondary-color: #14213d;
-    --background-color: #e5e5e5;
-    --text-color-on-white: var(--secondary-color);
-    --text-color-on-dark: var(--primary-color);
+    --background-color: #dddcdc;
+    --text-color-on-whites: var(--secondary-color);
+    --text-color-on-darks: var(--primary-color);
+    --header-color: var(--secondary-color);
+
+    --accent-header-color: #ffffff;
+    --color-links-header: var(--text-color-on-whites);
     --padding-title: 10px;
     --padding-paragraph: 10px;
 }
 
+body {
+    background-color: var(--background-color);
+}
+
+/* CODE FOR HEADER  */
+header {
+    display: grid;
+    grid-template-columns: 44px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+    color: var(--text-color-on-darks);
+    background-color: var(--header-color);
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+header span {
+    font-size: 1.2rem;
+    
+    align-self: center;
+}
+
+/**************** HAMBURGUER NAVIGATION ***************/
+
+.hamburguer {
+    background: none;
+    border: none;
+    color: var(--text-color-on-white);
+    cursor: pointer;
+    /* font-family: ; */
+}
+
+.hamburguer::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburguer.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+/******************* NAVIGATION BAR  ******************/
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    background-color: var(--accent-header-color);
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    text-align: center;
+    transition: transform 0.3s;
+    color: var(--color-links-header);
+}
+.navigation a:hover {
+    background-color: var(--header-color);
+    color: var(--text-color-on-darks);
+}

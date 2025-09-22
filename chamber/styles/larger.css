@@ -1,0 +1,46 @@
+@media only screen and (min-width:768px) {
+    header,
+    main,
+    nav,
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    header img {
+        width: 44px;
+    }
+
+    .hamburguer {
+        display: none;
+    }
+    /********* CODE FOR NAVIGATION BAR ***********/
+    .navigation {
+        display: block;
+        padding: 0 10px 5px 10px;
+        border-bottom: 0px solid #38040e;
+        /* opcional, si quieres un borde visible */
+        box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    }
+
+    .navigation ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        
+    }
+    .navigation li {
+        width: 100%;
+    }
+    
+    .navigation a {
+        border: none;
+        width: 100%;
+    }
+    
+}
