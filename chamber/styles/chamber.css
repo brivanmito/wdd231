@@ -18,10 +18,18 @@
     --color-links-header: var(--text-color-on-whites);
     --padding-title: 10px;
     --padding-paragraph: 10px;
+
+    --main-font: "Libertinus Serif Display";
+    --titles-font: "Jost", sans-serif;
 }
 
 body {
     background-color: var(--background-color);
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5, header span {
+    font-family: var(--titles-font);
 }
 
 /* CODE FOR HEADER  */
@@ -29,7 +37,7 @@ header {
     display: grid;
     grid-template-columns: 44px auto 44px;
     padding: 5px 0 5px 10px;
-    align-items: end;
+    align-items: center;
     border-bottom: solid 1px #ddd;
     column-gap: 8px;
     color: var(--text-color-on-darks);
@@ -98,4 +106,65 @@ header span {
 .navigation a:hover {
     background-color: var(--header-color);
     color: var(--text-color-on-darks);
+}
+
+
+/* FOOTER  */
+
+footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+footer div {
+    padding: 30px 0 30px 0;
+}
+
+
+/* footer text color  */
+footer p {
+    color: var(--primary-color);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 8px;
+}
+
+.social img {
+    margin: 10px;
+    width: 22px;
+    height: 22px;
+}
+.social a {
+    border: #ffffff dashed 1px;
+    border-radius: 22px;
+    width: 44px;
+    height: 44px;
+}
+.social a:hover {
+    background-color: #d7d7d7;
+}
+.social img:hover {
+    background-color: #d7d7d7;
+}
+
+/* FOOTER INFO */
+#footer-info {
+    padding-top: 0;
+}
+
+#footer-info div{
+    border-top: solid 1px #48484867;
+    padding-left: 30px;
+
+}
+#updated {
+    padding-bottom: 0;
+}
+
+footer p {
+    line-height: 1.4;
+    font-size: 14px;
 }
