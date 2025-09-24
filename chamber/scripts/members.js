@@ -43,16 +43,30 @@ const DisplayMembers = (members) => {
         const phoneNumber = document.createElement("p");
         const website = document.createElement("a");
         const levelMembership = document.createElement("p");
+        const sincemember = document.createElement("p");
 
         // CREATE DIV 
         const memberinfo = document.createElement("div");
 
         // ASSIGN VALUES WITH THE DATA.MEMBERS
         titleCompany.textContent = member.name;
-        logoCompany.src = member.imageicon;
+        logoCompany.setAttribute("src", member.imageicon);
+        logoCompany.setAttribute("alt", `${titleCompany} Logo`);
+        logoCompany.setAttribute("width", "100px");
+        logoCompany.setAttribute("height", "100px");
+        address.textContent = member.address;
+        phoneNumber.textContent = member.phonenumber;
+
+        website.textContent = member.websiteurl;
+        website.setAttribute("href", member.websiteurl);
+        website.setAttribute("target", "_blank");
+
+
+        levelMembership.textContent = member.membershiplevel.charAt(0).toUpperCase() + member.membershiplevel.slice(1);
+        sincemember.textContent = member.sincemember;
 
         // APPEND TO THE DIV PARENT 
-        memberinfo.append(titleCompany, logoCompany);
+        memberinfo.append(titleCompany, logoCompany, address, phoneNumber, website, levelMembership, sincemember);
 
         // APPEND TO THE DIRECTORY CONTAINER DIV 
         containerElement.appendChild(memberinfo);
