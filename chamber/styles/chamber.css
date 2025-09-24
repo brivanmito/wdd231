@@ -168,3 +168,9 @@ footer p {
     line-height: 1.4;
     font-size: 14px;
 }
+
+/* CODE FOR MAIN ELEMENTS  */
+
+h1 {
+    padding-left: 30px;
+}
