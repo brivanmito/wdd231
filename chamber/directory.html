@@ -19,11 +19,24 @@
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <!-- GOOGLE FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Serif+Display&display=swap"
+        rel="stylesheet">
+
+    
+        
     <!-- FAVICON  -->
     <link rel="icon" href="images/favicon.ico">
 
     <!-- JS SCRIPTS -->
-     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/address.js" defer></script>
+
+
 
 </head>
 <body>
@@ -44,7 +57,25 @@
 
     </main>
     <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/bryanminotoala1997/"><img src="images/linkedin.svg" alt="LinkedIn Logo"
+                    width="16" height="16"></a>
+            <a href="https://www.facebook.com/bryanivan.minotoala.7/?locale=es_LA"><img src="images/facebook.svg"
+                    alt="Facebook Logo" width="16" height="16"></a>
+            <a href="https://github.com/brivanmito"><img src="images/github.svg" alt="GitHub Logo" width="16" height="16"></a>
+            <a href="https://www.instagram.com/brivanmino/"><img src="images/instagram.svg" alt="Instagram Logo" width="16"
+                    height="16"></a>
+        </div>
+        <div id="footer-info">
+            <div id="address-chamber">
 
+            </div>
+            <div id="updated">
+                <p id="course-name"></p>
+                <p>&copy;<span id="currentYear"></span> &middot; Bryan Mino &middot; Ecuador </p>
+                <p id="last-modified">44</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
