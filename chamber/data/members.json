@@ -5,7 +5,7 @@
             "address": "TX df. 466Y",
             "phonenumber": "123456789",
             "websiteurl": "wwww.quevedophotoclub.com",
-            "imageicon": "https://via.placeholder.com/150x50?text=Logo",
+            "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-339.svg",
             "membershiplevel": "gold",
             "sincemember": "2022-12-12"
         },
@@ -14,7 +14,7 @@
         "address": "Av. Amazonas 123",
         "phonenumber": "0987654321",
         "websiteurl": "www.techsolutions.ec",
-        "imageicon": "https://via.placeholder.com/150x50?text=Tech",
+        "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-340.svg",
         "membershiplevel": "silver",
         "sincemember": "2021-07-05"
         },
@@ -23,7 +23,7 @@
         "address": "Calle 10 y Av. 5",
         "phonenumber": "0991122334",
         "websiteurl": "www.cafearoma.com.ec",
-        "imageicon": "https://via.placeholder.com/150x50?text=Cafe",
+        "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-357.svg",
         "membershiplevel": "gold",
         "sincemember": "2018-11-20"
         },
@@ -32,7 +32,7 @@
         "address": "Sector Industrial 45",
         "phonenumber": "0989988776",
         "websiteurl": "www.ecoprint.ec",
-        "imageicon": "https://via.placeholder.com/150x50?text=EcoPrint",
+        "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-374.svg",
         "membershiplevel": "bronze",
         "sincemember": "2022-02-15"
         },
@@ -41,7 +41,7 @@
         "address": "Av. Central 200",
         "phonenumber": "0977766554",
         "websiteurl": "www.fitnesspro.com.ec",
-        "imageicon": "https://via.placeholder.com/150x50?text=FitPro",
+        "imageicon": "hhttps://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-392.svg",
         "membershiplevel": "silver",
         "sincemember": "2020-05-10"
         },
@@ -50,7 +50,7 @@
         "address": "Calle Comercio 88",
         "phonenumber": "0998877665",
         "websiteurl": "www.mundodigital.ec",
-        "imageicon": "https://via.placeholder.com/150x50?text=MDigital",
+        "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-399.svg",
         "membershiplevel": "gold",
         "sincemember": "2017-09-30"
         },
@@ -59,7 +59,7 @@
         "address": "Av. Los Álamos 77",
         "phonenumber": "0985544332",
         "websiteurl": "www.sabornatural.com.ec",
-        "imageicon": "https://via.placeholder.com/150x50?text=Sabor",
+        "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-403.svg",
         "membershiplevel": "bronze",
         "sincemember": "2023-01-22"
         }
