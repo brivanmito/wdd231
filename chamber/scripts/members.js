@@ -54,13 +54,13 @@ const DisplayMembers = (members) => {
         logoCompany.setAttribute("alt", `${titleCompany} Logo`);
         logoCompany.setAttribute("width", "100px");
         logoCompany.setAttribute("height", "100px");
+    
         address.textContent = member.address;
         phoneNumber.textContent = member.phonenumber;
 
         website.textContent = member.websiteurl;
         website.setAttribute("href", member.websiteurl);
         website.setAttribute("target", "_blank");
-
 
         levelMembership.textContent = member.membershiplevel.charAt(0).toUpperCase() + member.membershiplevel.slice(1);
         sincemember.textContent = member.sincemember;
@@ -76,3 +76,4 @@ const DisplayMembers = (members) => {
 }
 
 GetMembers();
+
