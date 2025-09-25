@@ -178,8 +178,8 @@ footer p {
 
 /* DIRECTORY CONTAINER */
 #directory-container {
-  margin-bottom: 30px;
-  margin: 15px auto;
+  padding-bottom: 30px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -243,5 +243,6 @@ footer p {
 
 #directory-container.list-view div {
     width: 80%;
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
