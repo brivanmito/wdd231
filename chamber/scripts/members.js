@@ -37,7 +37,7 @@ const DisplayMembers = (members) => {
         // "membershiplevel": "gold",
         // "sincemember": ""
 
-        const titleCompany = document.createElement("h3");
+        const titleCompany = document.createElement("h2");
         const logoCompany = document.createElement("img");
         const address = document.createElement("p");
         const phoneNumber = document.createElement("p");
