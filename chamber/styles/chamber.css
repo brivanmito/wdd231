@@ -246,3 +246,18 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
+
+
+/* SECOND PART  */
+
+/* HERO IMG  */
+
+#hero-img {
+  width: 100%;
+}
+
+#hero-img img {
+  width: 100%;
+  height: auto;
+}
