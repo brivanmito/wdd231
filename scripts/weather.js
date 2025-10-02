@@ -40,7 +40,7 @@ function displayResults(data) {
 
     const logoicon = data.weather[0].icon;
 
-    const iconsrc = ` https://openweathermap.org/img/w/${logoicon}.png`;
+    const iconsrc = `https://openweathermap.org/img/w/${logoicon}.png`;
     let desc = data.weather[0].description;
 
     weatherIcon.setAttribute("src", iconsrc);

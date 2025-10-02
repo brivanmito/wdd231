@@ -72,5 +72,21 @@
     #updated {
         grid-column: 3/4;
     }
+
+
+    /* SECTIONS CONTAINER  */
+
+    #sections-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 15px 30px;
+    }
+    .section-box {
+        flex: 1;
+        
+    }
     
 }

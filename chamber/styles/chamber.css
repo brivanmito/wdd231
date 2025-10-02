@@ -319,3 +319,53 @@ footer p {
   transform: scale(0.95);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* WEATHER SECTION  */
+
+.section-box {
+  background-color: rgb(202, 202, 202);
+}
+
+#sections-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ #sections-container div div {
+  padding: 15px;
+ }
+
+#sections-container div h2 {
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 15px;
+}
+
+#capitalize-weather-description{
+  text-transform: capitalize;
+}
+
+#info-weather {
+  width: 100%;
+  
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+#info-weather img {
+  width: 60px;
+  margin: 15px auto;
+}
+#info-weather div, #forecast-weather {
+  padding: 15px;
+}
+
+#forecast-weather {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
