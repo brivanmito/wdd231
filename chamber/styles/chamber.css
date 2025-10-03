@@ -363,7 +363,6 @@ footer p {
 }
 
 #forecast-weather {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;

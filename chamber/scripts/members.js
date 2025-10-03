@@ -82,3 +82,9 @@ GetMembers();
 
 
 
+// CODE JS FOR SHOWING MEMBERS SPOTLIGTH
+
+const companySectionElement = document.querySelector("#company-section");
+
+
+
