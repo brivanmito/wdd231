@@ -8,7 +8,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-339.svg",
             "membershiplevel": "gold",
             "sincemember": "2022-12-12",
-            "tagline": "Capturing Every Moment"
+            "tagline": "Capturing Every Moment",
+            "email": "contact@quevedophotoclub.com"
         },
         {
             "name": "Tech Solutions EC",
@@ -18,7 +19,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-340.svg",
             "membershiplevel": "silver",
             "sincemember": "2021-07-05",
-            "tagline": "Innovate Your Future"
+            "tagline": "Innovate Your Future",
+            "email": "info@techsolutions.ec"
         },
         {
             "name": "Cafe Aroma Quevedo",
@@ -28,7 +30,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-357.svg",
             "membershiplevel": "gold",
             "sincemember": "2018-11-20",
-            "tagline": "Taste The Aroma"
+            "tagline": "Taste The Aroma",
+            "email": "contact@cafearoma.com.ec"
         },
         {
             "name": "EcoPrint Graphics",
@@ -38,7 +41,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-374.svg",
             "membershiplevel": "bronze",
             "sincemember": "2022-02-15",
-            "tagline": "Print With Care"
+            "tagline": "Print With Care",
+            "email": "info@ecoprint.ec"
         },
         {
             "name": "Fitness Pro Quevedo",
@@ -48,7 +52,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-392.svg",
             "membershiplevel": "silver",
             "sincemember": "2020-05-10",
-            "tagline": "Your Health Matters"
+            "tagline": "Your Health Matters",
+            "email": "contact@fitnesspro.com.ec"
         },
         {
             "name": "Mundo Digital EC",
@@ -58,7 +63,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-399.svg",
             "membershiplevel": "gold",
             "sincemember": "2017-09-30",
-            "tagline": "Connecting Everyone Digitally"
+            "tagline": "Connecting Everyone Digitally",
+            "email": "info@mundodigital.ec"
         },
         {
             "name": "Sabor Natural",
@@ -68,7 +74,8 @@
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-403.svg",
             "membershiplevel": "bronze",
             "sincemember": "2023-01-22",
-            "tagline": "Nature In Every Bite"
+            "tagline": "Nature In Every Bite",
+            "email": "contact@sabornatural.com.ec"
         }
     ]
 }
