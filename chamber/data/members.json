@@ -7,7 +7,8 @@
             "websiteurl": "wwww.quevedophotoclub.com",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-339.svg",
             "membershiplevel": "gold",
-            "sincemember": "2022-12-12"
+            "sincemember": "2022-12-12",
+            "tagline": "Capturing Every Moment"
         },
         {
             "name": "Tech Solutions EC",
@@ -16,7 +17,8 @@
             "websiteurl": "www.techsolutions.ec",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-340.svg",
             "membershiplevel": "silver",
-            "sincemember": "2021-07-05"
+            "sincemember": "2021-07-05",
+            "tagline": "Innovate Your Future"
         },
         {
             "name": "Cafe Aroma Quevedo",
@@ -25,7 +27,8 @@
             "websiteurl": "www.cafearoma.com.ec",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-357.svg",
             "membershiplevel": "gold",
-            "sincemember": "2018-11-20"
+            "sincemember": "2018-11-20",
+            "tagline": "Taste The Aroma"
         },
         {
             "name": "EcoPrint Graphics",
@@ -34,7 +37,8 @@
             "websiteurl": "www.ecoprint.ec",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-374.svg",
             "membershiplevel": "bronze",
-            "sincemember": "2022-02-15"
+            "sincemember": "2022-02-15",
+            "tagline": "Print With Care"
         },
         {
             "name": "Fitness Pro Quevedo",
@@ -43,7 +47,8 @@
             "websiteurl": "www.fitnesspro.com.ec",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-392.svg",
             "membershiplevel": "silver",
-            "sincemember": "2020-05-10"
+            "sincemember": "2020-05-10",
+            "tagline": "Your Health Matters"
         },
         {
             "name": "Mundo Digital EC",
@@ -52,7 +57,8 @@
             "websiteurl": "www.mundodigital.ec",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-399.svg",
             "membershiplevel": "gold",
-            "sincemember": "2017-09-30"
+            "sincemember": "2017-09-30",
+            "tagline": "Connecting Everyone Digitally"
         },
         {
             "name": "Sabor Natural",
@@ -61,7 +67,8 @@
             "websiteurl": "www.sabornatural.com.ec",
             "imageicon": "https://raw.githubusercontent.com/brivanmito/wdd231/main/chamber/images/logo%20images/logoipsum-403.svg",
             "membershiplevel": "bronze",
-            "sincemember": "2023-01-22"
+            "sincemember": "2023-01-22",
+            "tagline": "Nature In Every Bite"
         }
     ]
 }
