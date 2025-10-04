@@ -82,9 +82,31 @@ function PopulateData(arrayInfo) {
 
     pdescription.textContent = arrayInfo.tagline;
 
+    // SECOND DIV WITH IMAGES 
 
-    console.log(arrayInfo.name);
-    console.log(arrayInfo.tagline);
+    photoLogo.setAttribute("src", arrayInfo.imageicon);
+    photoLogo.setAttribute("alt", `${arrayInfo.name} Logo`);
+
+    pinfoBussiness.innerHTML = `<p><b>EMAIL: </b>${arrayInfo.email}</p><p><b>PHONE: </b>${arrayInfo.phonenumber}</p><p><b>URL: </b>${arrayInfo.websiteurl}</p>`;
+
+    // APPEMD ELEMENTS
+
+    divElement.append(h3Element);
+    divElement.append(pdescription);
+
+    // ADDING A CLASS TO THE INTER DIV 
+    divContainerImgText.classList.add("photo-text-div");
+
+    divContainerImgText.append(photoLogo);
+    divContainerImgText.append(pinfoBussiness);
+
+    divElement.append(divContainerImgText);
+
+    companySectionElement.append(divElement);
+
+
+
+
 
 
 
