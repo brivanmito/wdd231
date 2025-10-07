@@ -104,6 +104,12 @@ function showCourses(list) {
 
     container.appendChild(btn);
 
+    // ShowModal(c);
+
+    btn.addEventListener("click", () => {
+      ShowModal(c);
+    });
+
     // Sumar créditos
     totalCredits += c.credits;
   });
@@ -138,3 +144,37 @@ buttons.forEach(button => {
     activeFilter = filter;
   });
 });
+
+function ShowModal(course) {
+
+  // Create Modal
+  const modal = document.createElement("dialog");
+  modal.classList.add("course-dialog");
+
+  // HTML CONTENT
+  modal.innerHTML = `
+  <div>
+  <h2>${course.title}</h2>
+  <button id="close-btn">X</button>
+  </div>
+  <p>${course.credits} credits</p>
+  <p>Certificate: ${course.certificate}</p>
+  <p>${course.description}</p>
+  <p>Technology: ${course.technology}</p>
+  `;
+  
+  document.body.appendChild(modal);
+  
+  modal.showModal();
+  
+  const closeBtn = document.querySelector("#close-btn");
+
+
+  closeBtn.addEventListener("click", () => {
+    modal.close();
+    modal.remove();
+  });
+
+
+  
+};

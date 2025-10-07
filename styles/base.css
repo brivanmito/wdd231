@@ -287,5 +287,41 @@ button.not-completed, button.completed {
     border-radius: 5px;
 }
 
+/* Code for dialog  */
+
+dialog[open] {
+    background-color: var(--accent-color-two);
+    border: none;
+    width: 50%;
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+dialog[open] p {
+    padding: 0.5rem;
+}
+
+
+dialog[open] div {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+dialog[open]::backdrop {
+    background: rgb(0 0 0 / 70%);
+}
+
+#close-btn {
+    color: var(--accent-color);
+    border: none;
+    padding: 10px;
+}
+
 
 
