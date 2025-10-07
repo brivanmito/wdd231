@@ -8,3 +8,12 @@ navButton.addEventListener('click',() => {
 })
 
 
+const links = document.querySelectorAll('.navigation a');
+
+links.forEach(link => {
+    if (link.href === window.location.href) {
+        link.parentElement.classList.add('current');
+    } else {
+        link.parentElement.classList.remove('current'); // opcional para limpiar
+    }
+});
