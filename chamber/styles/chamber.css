@@ -424,6 +424,7 @@ footer p {
 input, select, textarea{
   display: block;
   margin-bottom: 20px;
+  border: 1px solid #ddd;
 }
 
 
@@ -484,6 +485,7 @@ label input, label select, label textarea {
 }
 
 #membershipContainer button {
+  border: none;
   padding: 10px 15px;
   background-color: var(--primary-color);
 }
