@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const timestampField = document.getElementById("timestamp");
+    timestampField.value = new Date().toLocaleString();
+});
+
 const divContainer = document.querySelector("#membershipContainer");
 
 const membershipLevels = [
@@ -127,6 +132,10 @@ function CreateModals(membership) {
 }
 
 CreateMembershipLevels();
+
+
+
+
 
 // function CreateModals {
 
