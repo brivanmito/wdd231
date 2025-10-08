@@ -120,5 +120,17 @@
         height: 100%;
     }
 
+    /* CSS FOR LARGE VIEW FORM SECTION  */
+
+    #form-section {
+        flex-direction: row;
+    }
+
+    #form-section h2 {
+        display: inline;
+    }
+
+
+
     
 }

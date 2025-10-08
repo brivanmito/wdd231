@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quevedo Chamber of Commerce Directory Page</title>
+
+    <meta name="description" content="Unofficial website of the Quevedo Chamber of Commerce: information on services for entrepreneurs, events, training, and business opportunities in the region.">
+    <meta name="author" content="Bryan Mino">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Chamber Home Page | QUEVEDO 2025">
+    <meta property="og:description" content="Unofficial website of the Quevedo Chamber of Commerce: information on services for entrepreneurs, events, training, and business opportunities in the region.">
+    <meta property="og:image" content="https://brivanmito.github.io/wdd231/chamber/imagenes/hero-img.webp">
+    <meta property="og:url" content="https://brivanmito.github.io/wdd231/chamber/directory.html">
+
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- GOOGLE FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Serif+Display&display=swap"
+        rel="stylesheet">
+
+    <!-- FAVICON  -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- JS SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/address.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/listview.js" defer></script>
+    <script src="scripts/modals.js" defer></script>
+
+
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Website" width="500" height="500">
+        <span>Quevedo Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburguer" aria-label="Open Menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Join Page</h1>
+        <section id="form-section">
+            <div>
+                <h2>Membership Application Form</h2>
+                <form method="get" action="thankyou.html" class="wf1">
+                
+                    <!-- First Name -->
+                    <label>
+                        First Name
+                        <input type="text" name="firstName" required title="Enter your First Name" autocomplete="given-name">
+                    </label>
+                
+                    <!-- Last Name -->
+                    <label>
+                        Last Name
+                        <input type="text" name="lastName" required title="Enter your Last Name" autocomplete="family-name">
+                    </label>
+                
+                    <!-- Organizational Title -->
+                    <label>
+                        Title Organization
+                        <input type="text" name="orgTitle" required pattern="[A-Za-z -]{7,}" title="Enter your organizational title"
+                            autocomplete="organization-title">
+                    </label>
+                
+                    <!-- Email -->
+                    <label>
+                        Email
+                        <input type="email" name="email" required title="Enter your Email Address" autocomplete="email"
+                            placeholder="example@email.com">
+                    </label>
+                
+                    <!-- Phone Number -->
+                    <label>
+                        Phone Number
+                        <input type="tel" name="telephone" required title="Enter your Mobile Phone Number" autocomplete="tel">
+                    </label>
+                
+                    <!-- Organization's Name -->
+                    <label>
+                        Organization's Name
+                        <input type="text" name="organization" required title="Enter your Organization's Name"
+                            autocomplete="organization">
+                    </label>
+                
+                    <!-- Membership Level -->
+                    <label>
+                        Membership Level
+                        <select name="membership-level" required>
+                            <option value="" disabled selected>Select a Membership Level</option>
+                            <option value="np">NP Membership (Non-Profit, Free)</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                
+                    <!-- Organization Description -->
+                    <label>
+                        Organization Description
+                        <textarea name="orgDescription" title="Enter your organization's description" rows="5" cols="50"
+                            placeholder="Describe your organization here..."></textarea>
+                    </label>
+                
+                    <!-- Timestamp -->
+                    <input type="hidden" name="timestamp" id="timestamp">
+                
+                    <!-- Submit Button -->
+                    <input id="submitBtn" type="submit" value="Join the Chamber">
+                
+                
+                </form>
+            </div>
+            <div id="membershipContainer">
+                <h2>Membership Levels</h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/bryanminotoala1997/"><img src="images/linkedin.svg" alt="LinkedIn Logo"
+                    width="16" height="16"></a>
+            <a href="https://www.facebook.com/bryanivan.minotoala.7/?locale=es_LA"><img src="images/facebook.svg"
+                    alt="Facebook Logo" width="16" height="16"></a>
+            <a href="https://github.com/brivanmito"><img src="images/github.svg" alt="GitHub Logo" width="16" height="16"></a>
+            <a href="https://www.instagram.com/brivanmino/"><img src="images/instagram.svg" alt="Instagram Logo" width="16"
+                    height="16"></a>
+        </div>
+        <div id="footer-info">
+            <div id="address-chamber">
+
+            </div>
+            <div id="updated">
+                <p id="course-name"></p>
+                <p>&copy;<span id="currentYear"></span> &middot; Bryan Mino &middot; Ecuador </p>
+                <p id="last-modified">44</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

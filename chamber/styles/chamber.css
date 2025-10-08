@@ -265,14 +265,7 @@ footer p {
   height: auto;
 }
 
-.cta-button {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 0.8rem 5%;
-  border: none;
-  border-radius: 2rem;
-  font-family: var(--titles-font);
-}
+
 
 /* Picture styles  */
 #cta-container {
@@ -305,7 +298,10 @@ footer p {
   color: var(--secondary-color);
   margin-bottom: 12px;
 }
-.cta-button {
+.cta-button, #submitBtn {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: none;
   display: block;
   padding: 0.8rem 15%;
   cursor: pointer;
@@ -313,7 +309,7 @@ footer p {
   transition: all 0.2s ease;
 }
 /* EFFECTS PRESSING ON THE BUTTON */
-.cta-button:hover {
+.cta-button:hover, #submitBtn:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
 }
@@ -417,5 +413,105 @@ footer p {
 .photo-text-div img {
   width: 100px;
   height: 100px;
+  padding: 15px;
+}
+
+
+/* CSS FOR LABELS */
+
+
+
+input, select, textarea{
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+.wf1 input:required {
+  border-left: solid 5px red;
+}
+
+.wf1 input:required:valid {
+  border-left: solid 5px green;
+}
+
+/* FORM SECTION  */
+
+#submitBtn {
+  margin: 0 auto;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+section form, section div {
+  background-color: #e8f1f1;
+  width: 100%;
+  padding: 30px;
+}
+
+section div {
+  background-color: blueviolet;
+}
+.wf1 label {
+  text-align: left;
+}
+
+label input, label select, label textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+#membershipContainer h3 {
+  padding-bottom: 15px;
+  color: #e8f1f1;
+}
+
+#membershipContainer div {
+  margin: 10px auto;
+  background-color: #14213d;
+  text-align: center;
+}
+
+#membershipContainer button {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+}
+
+/* CSS FOR DIALOG  */
+
+dialog[open]::backdrop {
+  background: rgb(0 0 0 / 70%);
+}
+
+dialog[open] {
+  background-color: var(--secondary-color);
+  border: none;
+  width: 50%;
+  padding: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+dialog[open] p {
+  padding: 0.5rem 0;
+  color: #ddd;
+}
+
+dialog[open] h3 {
+  padding: 0.5rem 0;
+  color: var(--primary-color);
+}
+
+dialog[open] button {
+  background-color: var(--primary-color);
+  border: none;
   padding: 15px;
 }
