@@ -446,6 +446,8 @@ input, select, textarea{
 #form-section {
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
+  gap: 10px;
 }
 
 #form-section > div {
