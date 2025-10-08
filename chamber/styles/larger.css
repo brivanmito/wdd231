@@ -126,11 +126,42 @@
         flex-direction: row;
     }
 
-    #form-section h2 {
-        display: inline;
+    
+
+    #membershipContainer {
+        display: flex;
+        flex-direction: column;
+        /* alineación vertical */
+        align-items: center;
     }
 
+    #membershipContainer div {
+        transform: translateY(50px);
+        opacity: 0;
+        animation: slideUp 1s forwards;
+    }
 
+    #membershipContainer div:nth-child(1) {
+        animation-delay: 0s;
+    }
 
+    #membershipContainer div:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    #membershipContainer div:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+
+    #membershipContainer div:nth-child(4) {
+        animation-delay: 0.6s;
+    }
+
+    @keyframes slideUp {
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
     
 }

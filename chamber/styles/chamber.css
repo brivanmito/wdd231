@@ -431,6 +431,7 @@ input, select, textarea{
   border-left: solid 5px red;
 }
 
+
 .wf1 input:required:valid {
   border-left: solid 5px green;
 }
@@ -444,27 +445,31 @@ input, select, textarea{
 #form-section {
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
+#form-section > div {
+  width: 100%;
+  /* text-align: center; */
+}
+#form-section h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
 
 
 section form, section div {
   background-color: #e8f1f1;
   width: 100%;
-  padding: 30px;
+  padding: 15px;
 }
 
-section div {
-  background-color: blueviolet;
-}
-.wf1 label {
-  text-align: left;
-}
+
+
 
 label input, label select, label textarea {
   width: 100%;
   padding: 10px;
+  display: block;
 }
 
 #membershipContainer h3 {
@@ -514,4 +519,11 @@ dialog[open] button {
   background-color: var(--primary-color);
   border: none;
   padding: 15px;
+}
+
+
+#thankyou-section {
+  line-height: 2rem;
+  padding: 30px;
+  width: 100%;
 }
