@@ -1,0 +1,99 @@
+:root {
+
+    --main-color: #d90429;
+    --secondary-color: #d34556;
+    --light-color: #edf2f4;
+    --dark-color: #8d99ae;
+    --background-color: #2b2d42;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--light-color);
+    color: var(--background-color);
+    line-height: 1.5;
+}
+h1, h2, h3, h4 {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#site-name-section p:first-of-type {
+    font-family: "Share Tech", arial;
+    font-size: larger;
+}
+#site-color-schema-section div{
+    height: 20px;
+    width: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+#site-fonts-section li:nth-of-type(1) span {
+    font-family: "Quicksand", sans-serif;
+}
+#site-fonts-section li:nth-of-type(2) span {
+    font-family: "Share Tech", sans-serif;
+}
+#site-fonts-section li:nth-of-type() span {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+#site-color-schema-section div {
+    border: 1px solid black;
+}
+
+main {
+    padding: 2rem;
+}
+
+#site-color-schema-section ul li:nth-of-type(1) div {
+    background-color: var(--main-color);
+}
+#site-color-schema-section ul li:nth-of-type(2) div {
+    background-color: var(--secondary-color);
+}
+#site-color-schema-section ul li:nth-of-type(3) div {
+    background-color: var(--light-color);
+}
+#site-color-schema-section ul li:nth-of-type(4) div {
+    background-color: var(--dark-color);
+}
+#site-color-schema-section ul li:nth-of-type(5) div {
+    background-color: var(--background-color);
+}
+
+#site-color-schema-section ul li:nth-of-type(1) div {
+    background-color: var(--main-color);
+}
+
+#site-color-schema-section ul li:nth-of-type(2) div {
+    background-color: var(--secondary-color);
+}
+
+#site-color-schema-section ul li:nth-of-type(3) div {
+    background-color: var(--light-color);
+}
+
+#site-color-schema-section ul li:nth-of-type(4) div {
+    background-color: var(--dark-color);
+}
+
+#site-color-schema-section p{
+    padding-left: 10px;
+}
+
+#wireframes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#wireframes-section img{
+    width: 500px;
+}
