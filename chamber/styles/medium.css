@@ -1,0 +1,48 @@
+@media (min-width: 40.1rem) and (max-width: 64rem) {
+
+
+    #discover-places div {
+
+
+
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto 1fr;
+        grid-template-areas:
+            "title-card title-card"
+            "img-card description-card"
+            "img-card address-card"
+            "button-card button-card"
+        ;
+    }
+
+    #discover-places h2 {
+        grid-area: title-card;
+    }
+
+    #discover-places figure {
+        grid-area: img-card;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #discover-places img {
+        justify-self: center;
+        width: 100%;
+        object-fit: cover;
+        padding-bottom: 15px;
+    }
+
+    #discover-places p {
+        grid-area: address-card;
+
+    }
+
+    #discover-places p.description-discover {
+        grid-area: description-card;
+    }
+
+    #discover-places button {
+        grid-area: button-card;
+    }
+}

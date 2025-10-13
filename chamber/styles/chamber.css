@@ -531,3 +531,70 @@ dialog[open] button {
   padding: 30px;
   width: 100%;
 }
+
+
+/* CSS FOR GRIS TEMPLATE AREAS  */
+
+#discover-places {
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 30px;
+
+}
+
+#discover-places div {
+
+  background-color: #cdd8eb;
+  border: 1px solid #393d3d;
+  display: grid;
+  width: 100%;
+  border-radius: 1rem;
+  grid-template-areas: 
+  "title-card"
+  "img-card"
+  "description-card"
+  "address-card"
+  "button-card"
+  
+  ;
+
+  padding: 0;
+
+}
+
+#discover-places h2 {
+  grid-area: title-card;
+  padding: 15px;
+}
+#discover-places figure {
+  grid-area: img-card;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#discover-places img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#discover-places p {
+  grid-area: address-card;
+  padding: 15px;
+}
+#discover-places p.description-discover {
+  grid-area: description-card;
+}
+#discover-places button {
+  
+  grid-area: button-card;
+  padding: 15px;
+  width: 95%;
+  border-radius: 2rem;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  justify-self: center;
+  margin-bottom: 15px;
+}
