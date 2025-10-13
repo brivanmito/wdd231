@@ -45,8 +45,9 @@ function CreateCards(place) {
 
 
         img.setAttribute("src", place.imageUrl);
-        img.setAttribute("width", 300);
-        img.setAttribute("height", 200);
+        img.setAttribute("width", "300");
+        img.setAttribute("height", "200");
+        img.setAttribute("loading", "lazy");
 
         figure.append(img);
 
