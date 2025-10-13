@@ -605,3 +605,7 @@ dialog[open] button {
 .social p {
   display: block;
 }
+
+#places-container h2 {
+  padding: 15px 30px;
+}

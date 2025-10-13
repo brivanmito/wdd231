@@ -187,9 +187,7 @@
             "button-card button-card"
         ;
     }
-    #places-container h2 {
-        padding: 15px 30px;
-    }
+
 
     #discover-places h2 {
         grid-area: title-card;
