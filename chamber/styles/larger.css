@@ -187,6 +187,10 @@
             "button-card button-card"
         ;
     }
+    #discover-places div:hover {
+
+        background-color: rgb(209, 231, 252);
+    }
 
     #discover-places h2 {
         grid-area: title-card;
@@ -217,6 +221,7 @@
 
     #discover-places button {
         grid-area: button-card;
+        cursor: pointer;
     }
 
     #discover-places div {
