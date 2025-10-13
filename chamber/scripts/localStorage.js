@@ -35,7 +35,7 @@ function verifyVisit() {
 
         }
 
-        console.log(diffDays);
+        
 
 
     }
