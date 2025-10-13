@@ -32,6 +32,7 @@ function CreateCards(place) {
 
         const img = document.createElement("img");
 
+
         const address = document.createElement("p");
 
 
@@ -45,6 +46,7 @@ function CreateCards(place) {
 
 
         img.setAttribute("src", place.imageUrl);
+        img.setAttribute("alt", `${place.title} Discover Page`);
         img.setAttribute("width", "300");
         img.setAttribute("height", "200");
         img.setAttribute("loading", "lazy");
