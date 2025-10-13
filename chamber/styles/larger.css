@@ -218,4 +218,44 @@
     #discover-places button {
         grid-area: button-card;
     }
+
+    #discover-places div {
+        opacity: 0;
+        /* empezamos invisibles */
+        animation: fadeUp 0.5s forwards;
+        /* 0.5s duración, forwards para mantener estado final */
+    }
+
+    #discover-places div:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    #discover-places div:nth-child(2) {
+        animation-delay: 0.3s;
+    }
+
+    #discover-places div:nth-child(3) {
+        animation-delay: 0.5s;
+    }
+
+    #discover-places div:nth-child(4) {
+        animation-delay: 0.7s;
+    }
+
+    #discover-places div:nth-child(5) {
+        animation-delay: 0.9s;
+    }
+
+
+    @keyframes fadeUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }

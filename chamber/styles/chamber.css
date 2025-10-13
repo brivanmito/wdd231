@@ -144,7 +144,9 @@ footer p {
   padding-left: 30px;
   border-top: 1px solid #48484867;
 }
-
+#overlay-msg {
+  border-bottom: 1px solid #cfcbcb;
+}
 #updated {
   padding-bottom: 0;
 }
@@ -546,8 +548,8 @@ dialog[open] button {
 
 #discover-places div {
 
-  background-color: #cdd8eb;
-  border: 1px solid #393d3d;
+  background-color: #d8dfe9;
+  border: 1px solid #b9bcbc;
   display: grid;
   width: 100%;
   border-radius: 1rem;
@@ -571,6 +573,7 @@ dialog[open] button {
 #discover-places figure {
   grid-area: img-card;
   width: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -597,4 +600,8 @@ dialog[open] button {
   color: var(--primary-color);
   justify-self: center;
   margin-bottom: 15px;
+}
+
+.social p {
+  display: block;
 }
