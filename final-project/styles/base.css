@@ -41,7 +41,7 @@ li {
 #site-fonts-section li:nth-of-type(2) span {
     font-family: "Share Tech", sans-serif;
 }
-#site-fonts-section li:nth-of-type() span {
+#site-fonts-section li:nth-of-type(3) span {
     font-family: "Montserrat Alternates", sans-serif;
 }
 #site-color-schema-section div {
