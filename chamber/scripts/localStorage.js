@@ -4,6 +4,8 @@ const div = document.querySelector("#overlay-msg");
 
 const p = document.createElement("p");
 
+// Create kc
+
 
 function verifyVisit() {
 
