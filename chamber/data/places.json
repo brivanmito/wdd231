@@ -1,0 +1,60 @@
+{
+  "places": [
+    {
+      "name": "Malecón de Quevedo",
+      "address": "Av. Bolívar y Río Quevedo, centro de la ciudad",
+      "description": "Uno de los lugares más representativos de Quevedo. Ofrece una vista encantadora al río y espacios para caminar, relajarse o disfrutar de la brisa. Es punto de encuentro de familias, deportistas y comerciantes locales.",
+      "category": "Turismo urbano",
+      "imageUrl": "images/img-1.webp"
+    },
+    {
+      "name": "Parque Central 7 de Octubre",
+      "address": "Av. Bolívar entre Vargas Torres y Pichincha, centro de Quevedo",
+      "description": "Corazón histórico de la ciudad, rodeado por la Catedral y comercios tradicionales. Es un espacio verde que combina naturaleza, cultura y vida urbana, ideal para pasear o disfrutar de eventos públicos.",
+      "category": "Cultura y recreación",
+      "imageUrl": "images/img-2.webp"
+    },
+    {
+      "name": "Finca Agroecológica Río Palenque",
+      "address": "Km 56 vía Quevedo – Santo Domingo",
+      "description": "Reserva biológica y centro de investigación con cientos de especies tropicales. Ofrece recorridos guiados, senderos ecológicos y experiencias educativas sobre biodiversidad y agricultura sostenible.",
+      "category": "Ecoturismo",
+      "imageUrl": "images/img-3.webp"
+    },
+    {
+      "name": "Mirador de Fumisa",
+      "address": "Vía a Valencia, sector Fumisa, Quevedo",
+      "description": "Un punto panorámico desde donde se puede observar toda la ciudad y el paisaje agrícola circundante. Es ideal para apreciar el atardecer y tomar fotografías de Quevedo desde las alturas.",
+      "category": "Paisaje natural",
+      "imageUrl": "images/img-4.webp"
+    },
+    {
+      "name": "Paseo Shopping Quevedo",
+      "address": "Av. Jaime Roldós Aguilera y Circunvalación Norte",
+      "description": "El principal centro comercial de la ciudad, con tiendas, restaurantes, cine y servicios. Refleja el dinamismo comercial y el crecimiento urbano de Quevedo.",
+      "category": "Comercio y entretenimiento",
+      "imageUrl": "images/img-5.webp"
+    },
+    {
+      "name": "Balnearios del Río Vinces",
+      "address": "Sector rural al noreste de Quevedo, margen del Río Vinces",
+      "description": "Zona natural muy visitada por sus aguas frescas y entorno verde. Ideal para disfrutar en familia, practicar deportes acuáticos o simplemente relajarse en contacto con la naturaleza.",
+      "category": "Naturaleza y recreación",
+      "imageUrl": "images/img-6.webp"
+    },
+    {
+      "name": "Casa de la Cultura Ecuatoriana 'Benjamín Carrión', Núcleo de Los Ríos",
+      "address": "Av. Quito y Bolívar, Quevedo",
+      "description": "Espacio cultural que promueve el arte, la literatura y las tradiciones locales. Acoge exposiciones, presentaciones y talleres que fortalecen la identidad quevedeña.",
+      "category": "Arte y cultura",
+      "imageUrl": "images/img-7.webp"
+    },
+    {
+      "name": "Haciendas cacaoteras de Quevedo",
+      "address": "Zonas rurales en la vía a El Empalme y Mocache",
+      "description": "En estas haciendas se puede recorrer plantaciones de cacao, conocer el proceso artesanal del chocolate y degustar productos locales. Representan el orgullo agrícola de Quevedo y su papel en la economía nacional.",
+      "category": "Agroturismo",
+      "imageUrl": "images/img-8.webp"
+    }
+  ]
+}
