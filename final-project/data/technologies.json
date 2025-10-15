@@ -1,0 +1,29 @@
+{
+  "technologies": [
+    {
+      "title": "HTML",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "category": "frontend"
+    },
+    {
+      "title": "CSS",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "category": "frontend"
+    },
+    {
+      "title": "JavaScript",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "category": "frontend"
+    },
+    {
+      "title": "React",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "category": "frontend"
+    },
+    {
+      "title": "Node.js",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "category": "backend"
+    }
+  ]
+}
