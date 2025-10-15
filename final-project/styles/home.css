@@ -5,9 +5,9 @@
 }
 
 :root {
-    --main-color: #b0031f;
-    --secondary-color: #8b232f;
-    --tone-main-color: #d34556;
+    --main-color: #2a2828;
+    --secondary-color: #e23333;
+    --tone-main-color: #e98b69;
     --light-color: #edf2f4;
     --dark-color: #8d99ae;
     --background-color: #2b2d42;
@@ -18,7 +18,11 @@
 
 body {
     font-family: "Quicksand", sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--light-color);
+    width: 100%;
+}
+
+main {
     width: 100%;
 }
 
@@ -34,6 +38,7 @@ header {
     color: rgb(255, 255, 255);
     
 }
+
 
 header  span:first-child {
     font-family: "Share Tech";
@@ -58,7 +63,7 @@ header  span:first-child {
     }
 }
 .navigation {
-    position: fixed;
+    position: relative;
     text-align: center;
     z-index: -1;
     width: 100%;
@@ -70,31 +75,121 @@ header  span:first-child {
 .navigation.open {
     display: block;
     animation: SlideIn .3s forwards;
+    width: 100%;
 }
 
 .navigation.close {
     display: block;
     animation: SlideOut .3s forwards;
+    width: 100%;
 }
 
 #nav-bar li {
     list-style: none;
     padding: 10px;
 }
+
+#nav-bar li:hover {
+    background-color: var(--secondary-color);
+}
+
 #nav-bar li.current {
     background-color: var(--secondary-color);
     height: auto;
+    border: 1px dashed white;
 }
 
 #nav-bar a {
     text-decoration: none;
-    color: var(--light-color);
+    color: rgb(255, 255, 255);
     font-size: small;
 }
 
 #ham-btn {
-    background-color: #d90429;
+    color: rgb(255, 255, 255);
+    background-color: var(--main-color);
     width: 100%;
     height: var(--height-btn);
+    border: none;
 }
+
+.hamburguer::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburguer.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+
+
+button {
+    border: none;
+    
+}
+main h1 {
+    padding-left: 15px;
+}
+h1,
+h2,
+h3, p {
+    line-height: 2.5rem;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#call-to-action {
+    background-color: #fd5502;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+#section-presentation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#section-presentation img {
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+}
+#content-presentation {
+}
+#section-presentation div span{
+    color: #fd5502;
+}
+
+#principal {
+    width: 100%;
+    padding-left: 15px;
+}
+
+#profile-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#profile-container img {
+    width: 50%;
+    height: auto;
+    background-color: #e23333;
+}
+
+
+
+
+
+
+
+
+
+
 

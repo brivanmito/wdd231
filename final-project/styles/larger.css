@@ -26,4 +26,30 @@
         display: none;
     }
     
+    h1, h2, h3 {
+        line-height: 3rem;
+        font-family: "Montserrat Alternates", sans-serif;
+    }
+    main h1 {
+        padding-left: 30px;
+    }
+    #content-presentation {
+        
+    }
+    #principal {
+        width: 100%;
+        padding-left: 30px;
+    }
+    #section-presentation {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #section-presentation img {
+        width: 80%;
+        height: 100%;
+    }
+
+    
+    
+    
 }
