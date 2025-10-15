@@ -16,11 +16,6 @@
       "category": "frontend"
     },
     {
-      "title": "React",
-      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "category": "frontend"
-    },
-    {
       "title": "Node.js",
       "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       "category": "backend"
