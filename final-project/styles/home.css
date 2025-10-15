@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #d90429;
+    --secondary-color: #8b232f;
+    --tone-main-color: #d34556;
+    --light-color: #edf2f4;
+    --dark-color: #8d99ae;
+    --background-color: #2b2d42;
+    --padding-text: 15px 20px;
+    --height-btn: 40px;
+    --height-header: 40px;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--dark-color);
+    width: 100%;
+}
+
+header {
+    position: relative;
+    background-color: var(--main-color);
+    display: grid;
+    grid-template-columns: 90px auto 50px;
+    align-items: center;
+    padding: 0px 0px 0px 15px;
+    width: 100%;
+    height: var(--height-header);
+    
+}
+
+header  span:first-child {
+    font-family: "Share Tech";
+}
+
+@keyframes SlideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes SlideOut {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+.navigation {
+    position: fixed;
+    text-align: center;
+    z-index: -1;
+    width: 100%;
+    background-color: var(--tone-main-color);
+    transform: translateY(-100%);
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+    animation: SlideIn .3s forwards;
+}
+
+.navigation.close {
+    display: block;
+    animation: SlideOut .3s forwards;
+}
+
+#nav-bar li {
+    list-style: none;
+    padding: 10px;
+}
+#nav-bar li.current {
+    background-color: var(--secondary-color);
+    height: auto;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: small;
+}
+
+#ham-btn {
+    background-color: #d90429;
+    width: 100%;
+    height: var(--height-btn);
+}
+

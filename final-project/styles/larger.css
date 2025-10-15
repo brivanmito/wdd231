@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) {
+
+    header {
+        background-color: var(--main-color);
+        grid-template-columns: 180px auto;
+        padding: 0px 120px 0px 30px;
+        
+    }
+
+    #nav-bar {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        transform: none;
+        z-index: auto;
+        padding-left: 30px;
+    }
+    
+    #nav-bar ul {
+        display: flex;
+        flex-direction: row;
+    }
+    #ham-btn {
+        display: none;
+    }
+    
+}
