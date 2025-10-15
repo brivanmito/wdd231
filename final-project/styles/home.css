@@ -156,8 +156,8 @@ h3, p {
     
 }
 #section-presentation img {
-    background-color: var(--secondary-color);
-    border-radius: 100%;
+    
+    
 }
 #content-presentation {
 }
@@ -178,6 +178,7 @@ h3, p {
 
 }
 #profile-container img {
+    border-radius: 100%;
     width: 50%;
     height: auto;
     background-color: #e23333;
