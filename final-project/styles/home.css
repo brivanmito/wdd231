@@ -7,7 +7,7 @@
 :root {
     --main-color: #2a2828;
     --secondary-color: #e23333;
-    --tone-main-color: #e98b69;
+    --tone-main-color: #c2c2c2;
     --light-color: #edf2f4;
     --dark-color: #8d99ae;
     --background-color: #2b2d42;
@@ -149,11 +149,11 @@ h3, p {
 }
 
 #call-to-action {
-    background-color: #f95a0b;
+    background-color: #8c0d07;
     padding: 10px 15px;
     margin-top: 1rem;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #section-presentation {
@@ -169,7 +169,7 @@ h3, p {
     padding: 15px;
 }
 #section-presentation div span{
-    color: #ff5500;
+    color: #8c0d07;
 }
 
 #principal {
@@ -188,7 +188,7 @@ h3, p {
     border-radius: 100%;
     width: 50%;
     height: auto;
-    background: linear-gradient(to right, #d13434, #ba6848);
+    background: linear-gradient(to right, #8c0d07, #956e6e);
 }
 #technologies-container {
     width: 100%;
@@ -196,7 +196,7 @@ h3, p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #e98b69;
+    background-color: var(--tone-main-color);
     
     margin-top: 15px;
 }
