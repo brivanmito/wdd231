@@ -1,6 +1,7 @@
 {
   "certificates": [
     {
+      "id": 1,
       "name": "Front-End Web Development",
       "awarded": 2021,
       "topics": ["HTML", "CSS", "JavaScript", "Responsive Design"],
@@ -8,6 +9,7 @@
       "description": "A comprehensive course on building responsive and interactive websites using modern front-end technologies."
     },
     {
+      "id": 2,
       "name": "JavaScript Algorithms and Data Structures",
       "awarded": 2021,
       "topics": ["Algorithms", "Data Structures", "Problem Solving"],
@@ -15,6 +17,7 @@
       "description": "Learned to solve complex programming problems and implement efficient algorithms and data structures in JavaScript."
     },
     {
+      "id": 3,
       "name": "React - The Complete Guide",
       "awarded": 2022,
       "topics": ["React", "Hooks", "State Management", "Routing"],
@@ -22,6 +25,7 @@
       "description": "Mastered React for building dynamic web applications with functional components, hooks, and routing."
     },
     {
+      "id": 4,
       "name": "Python for Everybody",
       "awarded": 2020,
       "topics": ["Python", "Data Analysis", "APIs"],
@@ -29,6 +33,7 @@
       "description": "Introduced to Python programming and data manipulation techniques, including API interactions and basic data analysis."
     },
     {
+      "id": 5,
       "name": "AWS Cloud Practitioner",
       "awarded": 2022,
       "topics": ["Cloud Computing", "AWS Services", "Deployment"],
@@ -36,6 +41,7 @@
       "description": "Gained foundational knowledge of cloud computing concepts and AWS core services, including deployment and security."
     },
     {
+      "id": 6,
       "name": "UX Design Fundamentals",
       "awarded": 2021,
       "topics": ["User Research", "Wireframing", "Prototyping", "Usability"],
@@ -43,6 +49,7 @@
       "description": "Learned the principles of user experience design, conducting research, creating wireframes, and building prototypes."
     },
     {
+      "id": 7,
       "name": "SQL for Data Analysis",
       "awarded": 2022,
       "topics": ["SQL Queries", "Data Analysis", "Database Management"],
@@ -50,6 +57,7 @@
       "description": "Focused on querying databases with SQL and performing data analysis to extract meaningful insights."
     },
     {
+      "id": 8,
       "name": "Git & GitHub Masterclass",
       "awarded": 2020,
       "topics": ["Version Control", "Collaboration", "GitHub Workflows"],

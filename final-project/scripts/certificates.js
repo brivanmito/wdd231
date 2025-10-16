@@ -40,6 +40,8 @@ function DisplayCertificates(certificates) {
 
         button.classList.add("btn-format");
 
+        button.value = certificate.
+
         // img.setAttribute("src", technology.imageUrl);
         // img.setAttribute("alt", `${technology.title} Logo`);
         // img.setAttribute("height", "44");
