@@ -1,0 +1,28 @@
+{
+  "education": [
+    {
+      "institution": "Universidad Técnica Estatal de Quevedo",
+      "grade_title": "Software Engineering",
+      "start_year": 2019,
+      "end_year": 2022,
+      "urlimg": "https://example.com/uteq-logo.png",
+      "languages" : ["Spanish", "English"]
+    },
+    {
+      "institution": "BYU Pathway Worldwide",
+      "grade_title": "A year of University Studies",
+      "start_year": 2021,
+      "end_year": 2022,
+      "urlimg": "https://example.com/ueq-logo.png",
+      "languages" : ["English"]
+    },
+    {
+      "institution": "Brigham Young University",
+      "grade_title": "Bachelor's Degree in Software Development",
+      "start_year": 2023,
+      "end_year": 2025,
+      "urlimg": "https://example.com/ueq-logo.png",
+      "languages" : ["English"]
+    }
+  ]
+}
