@@ -86,6 +86,11 @@
         height: 100px;
     }
 
+    #form-section>div {
+        width: 70%;
+        /* text-align: center; */
+    }
+
     
     
     

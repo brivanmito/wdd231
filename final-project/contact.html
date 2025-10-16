@@ -39,6 +39,7 @@
 
     <!-- JS SCRIPTS -->
      <script src="scripts/app.js" type="module"></script>
+     <script src="scripts/thanyou.js" defer></script>
     
 
 </head>
@@ -56,9 +57,85 @@
             <li><a href="projects.js">Projects</a></li>
         </ul>
     </nav>
-    <main>3
+    <main>
         <h1>Contact</h1>
         <div id="principal">
+            <section id="form-section">
+                <div>
+                    <h2>Membership Application Form</h2>
+                    <form method="get" action="thankyou.html" class="wf1">
+            
+                        <!-- First Name -->
+                        <label>
+                            First Name
+                            <input type="text" name="firstName" required title="Enter your First Name" autocomplete="given-name">
+                        </label>
+            
+                        <!-- Last Name -->
+                        <label>
+                            Last Name
+                            <input type="text" name="lastName" required title="Enter your Last Name" autocomplete="family-name">
+                        </label>
+            
+                        <!-- Organizational Title -->
+                        <label>
+                            Title Organization
+                            <input type="text" name="orgTitle" required pattern="[A-Za-zÀ-ÿ \-]{7,}"
+                                title="Enter your organizational title" autocomplete="organization-title">
+                        </label>
+            
+                        <!-- Email -->
+                        <label>
+                            Email
+                            <input type="email" name="email" required title="Enter your Email Address" autocomplete="email"
+                                placeholder="example@email.com">
+                        </label>
+            
+                        <!-- Phone Number -->
+                        <label>
+                            Phone Number
+                            <input type="tel" name="telephone" required title="Enter your Mobile Phone Number" autocomplete="tel">
+                        </label>
+            
+                        <!-- Organization's Name -->
+                        <label>
+                            Organization's Name
+                            <input type="text" name="organization" required title="Enter your Organization's Name"
+                                autocomplete="organization">
+                        </label>
+            
+                        <!-- Membership Level -->
+                        <label>
+                            Project Type
+                            <select name="membership-level" required>
+                                <option value="" disabled selected>Select a Membership Level</option>
+                                <option value="np">E-commerce</option>
+                                <option value="bronze">Landing Page</option>
+                                <option value="silver">App Web</option>
+                                <option value="gold">Website Redesign</option>
+                            </select>
+                        </label>
+            
+                        <!-- Organization Description -->
+                        <label>
+                            Organization Description
+                            <textarea name="orgDescription" title="Enter your organization's description" rows="5" cols="50"
+                                placeholder="Describe your organization here..."></textarea>
+                        </label>
+            
+                        <!-- Timestamp -->
+                        <input type="hidden" name="timestamp" id="timestamp">
+            
+            
+                        <!-- Submit Button -->
+                        <input id="submitBtn" class="btn-format" type="submit" value="Join the Chamber">
+            
+            
+                    </form>
+                </div>
+                
+            </section>
+            </main>
             
         </div>
     </main>

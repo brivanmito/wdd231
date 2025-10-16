@@ -381,8 +381,79 @@ footer {
     padding: 10px;
 }
 
+/* CSS FOR FORM SECTION  */
+/* CSS FOR LABELS */
 
 
+
+input,
+select,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #a5a1a1;
+}
+
+
+.wf1 input:required {
+    border-left: solid 5px #8c0d07;
+}
+
+
+.wf1 input:required:valid {
+    border-left: solid 5px green;
+}
+
+/* FORM SECTION  */
+
+#submitBtn {
+    
+    margin: 30px auto;
+}
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    gap: 10px;
+}
+
+#form-section>div {
+    width: 100%;
+    /* text-align: center; */
+}
+
+#form-section h2 {
+    
+    text-align: center;
+}
+
+
+section form,
+section div {
+    background-color: #d7dbdb;
+    width: 100%;
+    padding: 0 30px;
+}
+
+
+
+
+label input,
+label select,
+label textarea {
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+#submitBtn {
+    position: static;
+    margin-top: 50px;
+}
 
 
 

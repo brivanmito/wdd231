@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <strong>Phone:</strong> ${phoneNumber}<br><br>
     We appreciate your interest and look forward to collaborating with you.<br><br>
     Sincerely,<br>
-    <strong>The Chamber Team</strong>`;
+    <strong>Bryan Miño</strong>`;
 
 
 
