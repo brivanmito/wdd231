@@ -38,7 +38,7 @@ header {
     
 }
 
-header span {
+header span, header button {
     color: rgb(255, 255, 255);
 }
 
@@ -116,7 +116,6 @@ header  span:first-child {
 }
 
 #ham-btn {
-    color: rgb(0, 0, 0);
     background-color: var(--main-color);
     width: 100%;
     height: var(--height-btn);
