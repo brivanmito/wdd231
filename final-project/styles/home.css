@@ -103,6 +103,10 @@ header  span:first-child {
     border: 1px dashed white;
 }
 
+#nav-bar li.current a {
+    color: #ffffff;
+}
+
 
 
 #nav-bar a {
