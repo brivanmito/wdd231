@@ -165,9 +165,7 @@ h3, p {
     
 }
 
-#content-presentation {
-    padding: 15px;
-}
+
 #section-presentation div span{
     color: #8c0d07;
 }
@@ -175,6 +173,9 @@ h3, p {
 #principal {
     width: 100%;
     
+}
+#principal section {
+    padding: 15px;
 }
 
 #profile-container {

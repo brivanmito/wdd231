@@ -34,12 +34,15 @@
         padding-left: 30px;
     }
     #content-presentation {
-        padding-left: 30px;
         grid-area: content-presentation;
     }
     #principal {
         width: 100%;
     }
+    #principal section {
+        padding: 30px;
+    }
+    
     #section-presentation {
         display: grid;
         grid-template-columns: 1fr auto;
