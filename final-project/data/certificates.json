@@ -1,0 +1,60 @@
+{
+  "certificates": [
+    {
+      "name": "Front-End Web Development",
+      "awarded": 2021,
+      "topics": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      "institution": "Coursera",
+      "description": "A comprehensive course on building responsive and interactive websites using modern front-end technologies."
+    },
+    {
+      "name": "JavaScript Algorithms and Data Structures",
+      "awarded": 2021,
+      "topics": ["Algorithms", "Data Structures", "Problem Solving"],
+      "institution": "freeCodeCamp",
+      "description": "Learned to solve complex programming problems and implement efficient algorithms and data structures in JavaScript."
+    },
+    {
+      "name": "React - The Complete Guide",
+      "awarded": 2022,
+      "topics": ["React", "Hooks", "State Management", "Routing"],
+      "institution": "Udemy",
+      "description": "Mastered React for building dynamic web applications with functional components, hooks, and routing."
+    },
+    {
+      "name": "Python for Everybody",
+      "awarded": 2020,
+      "topics": ["Python", "Data Analysis", "APIs"],
+      "institution": "Coursera",
+      "description": "Introduced to Python programming and data manipulation techniques, including API interactions and basic data analysis."
+    },
+    {
+      "name": "AWS Cloud Practitioner",
+      "awarded": 2022,
+      "topics": ["Cloud Computing", "AWS Services", "Deployment"],
+      "institution": "Amazon Web Services",
+      "description": "Gained foundational knowledge of cloud computing concepts and AWS core services, including deployment and security."
+    },
+    {
+      "name": "UX Design Fundamentals",
+      "awarded": 2021,
+      "topics": ["User Research", "Wireframing", "Prototyping", "Usability"],
+      "institution": "Interaction Design Foundation",
+      "description": "Learned the principles of user experience design, conducting research, creating wireframes, and building prototypes."
+    },
+    {
+      "name": "SQL for Data Analysis",
+      "awarded": 2022,
+      "topics": ["SQL Queries", "Data Analysis", "Database Management"],
+      "institution": "DataCamp",
+      "description": "Focused on querying databases with SQL and performing data analysis to extract meaningful insights."
+    },
+    {
+      "name": "Git & GitHub Masterclass",
+      "awarded": 2020,
+      "topics": ["Version Control", "Collaboration", "GitHub Workflows"],
+      "institution": "Udemy",
+      "description": "Learned version control using Git, managing repositories, collaborating with others, and using GitHub workflows effectively."
+    }
+  ]
+}
