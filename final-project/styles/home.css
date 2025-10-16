@@ -417,13 +417,22 @@ textarea {
     justify-content: center;
     align-items: center;
     padding: 0;
-    width: 100%;
+    width: 90%;
     gap: 10px;
+    background-color: var(--tone-main-color);
 }
 
-#form-section>div {
+#form-section > div {
     width: 100%;
     /* text-align: center; */
+}
+
+.form1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
 #form-section h2 {
@@ -434,9 +443,8 @@ textarea {
 
 section form,
 section div {
-    background-color: #d7dbdb;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 

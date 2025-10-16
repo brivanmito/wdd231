@@ -87,7 +87,11 @@
     }
 
     #form-section>div {
-        width: 70%;
+        width: 100%;
+        /* text-align: center; */
+    }
+    #form-section {
+        width: 50%;
         /* text-align: center; */
     }
 
