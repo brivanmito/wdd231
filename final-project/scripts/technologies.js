@@ -36,6 +36,8 @@ function DisplayTechnologies(technologies) {
 
         img.setAttribute("src", technology.imageUrl);
         img.setAttribute("alt", `${technology.title} Logo`);
+        img.setAttribute("height", "44");
+        img.setAttribute("width", "44");
 
         title.textContent = technology.title;
 

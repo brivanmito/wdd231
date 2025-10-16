@@ -34,19 +34,33 @@
         padding-left: 30px;
     }
     #content-presentation {
-        
+        padding-left: 30px;
+        grid-area: content-presentation;
     }
     #principal {
         width: 100%;
-        padding-left: 30px;
     }
     #section-presentation {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: 
+        "content-presentation profile-container"
+        "technologies-container technologies-container"
+        ;
     }
-    #section-presentation img {
+    #profile-container {
+        grid-area: profile-container;
+        width: 100%;
+        
+    }
+    #profile-container img {
         width: 80%;
         height: 100%;
+    }
+    #technologies-container {
+        margin-top: 30px;
+        grid-area: technologies-container;
     }
 
     
