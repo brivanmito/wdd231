@@ -26,23 +26,29 @@ async function FetchApi() {
 function DisplayCertificates(certificates) {
 
 
-    technologies.forEach(technology => {
+    certificates.forEach(certificate => {
 
         const div = document.createElement("div");
 
-        const img = document.createElement("img");
+        // const img = document.createElement("img");
 
-        const title = document.createElement("p");
+        const p = document.createElement("p");
 
-        img.setAttribute("src", technology.imageUrl);
-        img.setAttribute("alt", `${technology.title} Logo`);
-        img.setAttribute("height", "44");
-        img.setAttribute("width", "44");
-        img.setAttribute("loading", "lazy");
+        const button = document.createElement("button");
 
-        title.textContent = technology.title;
+        button.textContent = "View details";
 
-        div.append(img, title);
+        button.classList.add("btn-format");
+
+        // img.setAttribute("src", technology.imageUrl);
+        // img.setAttribute("alt", `${technology.title} Logo`);
+        // img.setAttribute("height", "44");
+        // img.setAttribute("width", "44");
+        // img.setAttribute("loading", "lazy");
+
+        p.innerHTML = `<b>${certificate.name}</b><br>Awarded: ${certificate.awarded}<br>Institution: ${certificate.institution}`;
+
+        div.append(p, button);
 
         container.appendChild(div);
     });

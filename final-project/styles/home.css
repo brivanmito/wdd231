@@ -144,7 +144,7 @@ main h1 {
 h1,
 h2,
 h3 {
-    line-height: 2.5rem;
+    padding: 30px 0;
     font-family: "Montserrat Alternates", sans-serif;
 }
 p {
@@ -201,7 +201,6 @@ p {
     justify-content: center;
     align-items: center;
     background-color: var(--tone-main-color);
-    margin-top: 30px;
 }
 #technologies-container div {
     display: grid;
@@ -249,8 +248,35 @@ p {
     display: grid;
     grid-template-columns: 100px auto;
     gap: 60px;
-    padding: 30px 0;
     border-bottom: 1px solid rgb(212, 205, 205);
+}
+#section-certificates {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#section-certificates div {
+    position: relative;
+    border-radius: 0 1rem 1rem 0;
+    padding: 30px;
+    width: 300px;
+    background-color: #a39f9f;
+    border-left: 15px solid var(--main-color);
+    cursor: pointer;
+
+}
+
+.btn-format {
+    position: absolute;
+    bottom: -15px;
+        /* negativo para que sobresalga hacia arriba */
+    left: 50%;
+    border-radius: 20px ;
+    background-color: #8c0d07;
+    padding:10px 15px;
+    color: var(--light-color);
+    cursor: pointer;
 }
 
 
