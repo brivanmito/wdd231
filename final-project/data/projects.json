@@ -1,0 +1,154 @@
+{
+  "projects": [
+    {
+      "title": "Project Alpha",
+      "year": 2023,
+      "theme": "E-commerce",
+      "siteType": "Web",
+      "company": "Tech Solutions",
+      "designLead": "Maria Perez",
+      "developer": "Bryan Mino",
+      "url": "https://www.techsolutions.com/project-alpha"
+    },
+    {
+      "title": "Project Beta",
+      "year": 2024,
+      "theme": "Corporate Blog",
+      "siteType": "Web",
+      "company": "Innovate Co.",
+      "designLead": "Carlos Gomez",
+      "developer": "Ana Torres",
+      "url": "https://www.innovateco.com/project-beta"
+    },
+    {
+      "title": "Project Gamma",
+      "year": 2025,
+      "theme": "Landing Page",
+      "siteType": "Web",
+      "company": "Creative Agency",
+      "designLead": "Laura Sanchez",
+      "developer": "Bryan Mino",
+      "url": "https://www.creativeagency.com/project-gamma"
+    },
+    {
+      "title": "Project Delta",
+      "year": 2023,
+      "theme": "Portfolio",
+      "siteType": "Web",
+      "company": "Design Studio",
+      "designLead": "Ana Lopez",
+      "developer": "Carlos Gomez",
+      "url": "https://www.designstudio.com/project-delta"
+    },
+    {
+      "title": "Project Epsilon",
+      "year": 2024,
+      "theme": "Educational Site",
+      "siteType": "Web",
+      "company": "EduTech",
+      "designLead": "Laura Sanchez",
+      "developer": "Bryan Mino",
+      "url": "https://www.edutech.com/project-epsilon"
+    },
+    {
+      "title": "Project Zeta",
+      "year": 2023,
+      "theme": "Landing Page",
+      "siteType": "Web",
+      "company": "Marketing Co.",
+      "designLead": "Maria Perez",
+      "developer": "Ana Torres",
+      "url": "https://www.marketingco.com/project-zeta"
+    },
+    {
+      "title": "Project Eta",
+      "year": 2025,
+      "theme": "E-commerce",
+      "siteType": "Web",
+      "company": "Shopify Experts",
+      "designLead": "Carlos Gomez",
+      "developer": "Bryan Mino",
+      "url": "https://www.shopifyexperts.com/project-eta"
+    },
+    {
+      "title": "Project Theta",
+      "year": 2024,
+      "theme": "Corporate Blog",
+      "siteType": "Web",
+      "company": "Content Co.",
+      "designLead": "Laura Sanchez",
+      "developer": "Ana Torres",
+      "url": "https://www.contentco.com/project-theta"
+    },
+    {
+      "title": "Project Iota",
+      "year": 2023,
+      "theme": "Portfolio",
+      "siteType": "Web",
+      "company": "Freelance Studio",
+      "designLead": "Maria Perez",
+      "developer": "Carlos Gomez",
+      "url": "https://www.freelancestudio.com/project-iota"
+    },
+    {
+      "title": "Project Kappa",
+      "year": 2025,
+      "theme": "Educational Site",
+      "siteType": "Web",
+      "company": "EduTech",
+      "designLead": "Ana Lopez",
+      "developer": "Bryan Mino",
+      "url": "https://www.edutech.com/project-kappa"
+    },
+    {
+      "title": "Project Lambda",
+      "year": 2024,
+      "theme": "Landing Page",
+      "siteType": "Web",
+      "company": "Marketing Co.",
+      "designLead": "Laura Sanchez",
+      "developer": "Ana Torres",
+      "url": "https://www.marketingco.com/project-lambda"
+    },
+    {
+      "title": "Project Mu",
+      "year": 2023,
+      "theme": "E-commerce",
+      "siteType": "Web",
+      "company": "Shopify Experts",
+      "designLead": "Maria Perez",
+      "developer": "Bryan Mino",
+      "url": "https://www.shopifyexperts.com/project-mu"
+    },
+    {
+      "title": "Project Nu",
+      "year": 2024,
+      "theme": "Corporate Blog",
+      "siteType": "Web",
+      "company": "Content Co.",
+      "designLead": "Carlos Gomez",
+      "developer": "Ana Torres",
+      "url": "https://www.contentco.com/project-nu"
+    },
+    {
+      "title": "Project Xi",
+      "year": 2025,
+      "theme": "Portfolio",
+      "siteType": "Web",
+      "company": "Design Studio",
+      "designLead": "Laura Sanchez",
+      "developer": "Bryan Mino",
+      "url": "https://www.designstudio.com/project-xi"
+    },
+    {
+      "title": "Project Omicron",
+      "year": 2023,
+      "theme": "Educational Site",
+      "siteType": "Web",
+      "company": "EduTech",
+      "designLead": "Ana Lopez",
+      "developer": "Carlos Gomez",
+      "url": "https://www.edutech.com/project-omicron"
+    }
+  ]
+}
