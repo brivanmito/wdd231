@@ -256,11 +256,15 @@ p {
     flex-wrap: wrap;
 }
 
+#principal {
+    padding-bottom: 60px;
+}
+
 #section-certificates div {
     position: relative;
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 0 30px 30px 0;
     padding: 30px;
-    width: 300px;
+    width: 280px;
     background-color: #a39f9f;
     border-left: 15px solid var(--main-color);
     cursor: pointer;
@@ -278,7 +282,99 @@ p {
     color: var(--light-color);
     cursor: pointer;
 }
+.course-dialog button::before {
+    content: "\00D7";
+    font-size: 2rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
 
+/* CSS FOR DIALOG MODAL  */
+
+dialog[open]::backdrop {
+    background: rgb(0 0 0 / 70%);
+}
+
+dialog[open] {
+    background-color: var(--light-color);
+    border: none;
+    width: 50%;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+dialog[open] div:first-child {
+    display: flex;
+    padding: 0 0 0 30px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8c0d07;
+    color: var(--light-color);
+    
+}
+dialog[open] div:last-child {
+    padding: 30px;
+}
+dialog[open] button {
+    padding-right: 15px;
+    background-color: #8c0d07;
+
+}
+
+footer {
+    padding: 1.5rem 0 0;
+    text-align: center;
+    
+    background-color: var(--tone-main-color);
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #8c0d07 dashed 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social img:hover {
+    background-color: var(--light-color);
+}
+
+.social a:hover {
+    background-color: var(--light-color);
+}
+
+#updated {
+    background-color: var(--main-color);
+    padding: 1rem;
+    height: 100%;
+    color: var(--light-color);
+}
+
+#updated p {
+    padding: 10px;
+}
 
 
 

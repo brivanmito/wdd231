@@ -6,6 +6,10 @@ import { LoadEducation } from "./education.js";
 
 import { LoadCertificates } from "./certificates.js";
 
+import { verifyVisit } from "./localstorage.js";
+
+import { GetYear } from "./date.js"
+
 
 AddHideNavigation();
 
@@ -15,6 +19,9 @@ LoadEducation();
 
 LoadCertificates();
 
+verifyVisit();
+
+GetYear();
 
 
 
