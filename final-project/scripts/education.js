@@ -52,14 +52,13 @@ function DisplayEducation(education) {
         img.setAttribute("width", "100");
         img.setAttribute("loading", "lazy");
 
-        degreeTitle.innerHTML = `<span><b>${institucion.grade_title}</b></span>`;
-
-
         universityName.textContent = institucion.name;
 
-        period.innerHTML = `<b>Period:</b> ${institucion.start_year} - ${institucion.end_year}`;
-
-        languages.innerHTML = `<b>Languages:</b> ${institucion.languages.join(", ")}`;
+        degreeTitle.innerHTML = `
+  <span><b>${institucion.grade_title}</b></span><br>
+  <b>Period:</b> ${institucion.start_year} - ${institucion.end_year}<br>
+  <b>Languages:</b> ${institucion.languages.join(", ")}
+`;
 
         divImg.append(img);
 
