@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     AddHideNavigation();
     verifyVisit();
     GetYear();
-    LoadProjects();
+
 
 
     // ✅ Llama solo si el contenedor existe
@@ -26,6 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (document.getElementById("certificates-container")) {
         LoadCertificates();
+    }
+    if (document.getElementById("section-projects")) {
+        LoadProjects();
     }
 
 });
