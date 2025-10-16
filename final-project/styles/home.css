@@ -47,44 +47,46 @@ header  span:first-child {
     font-family: "Share Tech";
 }
 
-@keyframes SlideIn {
+@keyframes SlideInLeft {
     from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
+            transform: translateX(-100%);
+        }
+    
+        to {
+            transform: translateX(0);
+        }
 }
 
-@keyframes SlideOut {
+@keyframes SlideOutLeft {
     from {
-        transform: translateY(0);
-    }
-
-    to {
-        transform: translateY(-100%);
-    }
+            transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(-100%);
+        }
 }
 .navigation {
     position: relative;
     text-align: center;
-    z-index: -1;
+    z-index: 0;
     width: 100%;
     background-color: var(--tone-main-color);
     transform: translateY(-100%);
     display: none;
+
 }
 
 
 .navigation.open {
     display: block;
-    animation: SlideIn .3s forwards;
+    animation: SlideInLeft .3s forwards;
     width: 100%;
 }
 
 .navigation.close {
     display: block;
-    animation: SlideOut .3s forwards;
+    animation: SlideOutLeft .3s forwards;
     width: 100%;
 }
 
@@ -120,6 +122,9 @@ header  span:first-child {
     width: 100%;
     height: var(--height-btn);
     border: none;
+}
+#ham-btn:hover {
+    cursor: pointer;
 }
 
 .hamburguer::before {
