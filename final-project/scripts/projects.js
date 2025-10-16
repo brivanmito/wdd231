@@ -42,7 +42,7 @@ function DisplayProjects(projects) {
         img.setAttribute("alt", `${project.name}`);
         img.setAttribute("width", 300);
         img.setAttribute("heigth", "auto");
-        img.setAttribute("lazy", "loading");
+        img.setAttribute("loading", "lazy");
 
 
         button.textContent = "View details";
