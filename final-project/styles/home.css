@@ -35,8 +35,11 @@ header {
     padding: 0px 0px 0px 15px;
     width: 100%;
     height: var(--height-header);
-    color: rgb(255, 255, 255);
     
+}
+
+header span {
+    color: rgb(255, 255, 255);
 }
 
 
@@ -72,6 +75,7 @@ header  span:first-child {
     display: none;
 }
 
+
 .navigation.open {
     display: block;
     animation: SlideIn .3s forwards;
@@ -99,14 +103,16 @@ header  span:first-child {
     border: 1px dashed white;
 }
 
+
+
 #nav-bar a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: small;
 }
 
 #ham-btn {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: var(--main-color);
     width: 100%;
     height: var(--height-btn);
@@ -140,11 +146,11 @@ h3, p {
 }
 
 #call-to-action {
-    background-color: #fd5502;
+    background-color: #f95a0b;
     padding: 10px 15px;
     margin-top: 1rem;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #section-presentation {
@@ -157,10 +163,10 @@ h3, p {
 }
 
 #content-presentation {
-    padding-left: 15px;
+    padding: 15px;
 }
 #section-presentation div span{
-    color: #fd5502;
+    color: #ff5500;
 }
 
 #principal {
@@ -213,7 +219,7 @@ h3, p {
     line-height: 1rem;
     font-size: small;
     grid-area: text1;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
