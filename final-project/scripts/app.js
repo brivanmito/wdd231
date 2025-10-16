@@ -2,12 +2,17 @@ import { AddHideNavigation } from "./navigationmenu.js";
 
 import { LoadTechnologies } from "./technologies.js";
 
-import { DisplayEducation } from "./education.js";
+import { LoadEducation } from "./education.js";
 
 
 AddHideNavigation();
 
 LoadTechnologies();
 
-DisplayEducation();
+LoadEducation();
+
+
+
+
+
 

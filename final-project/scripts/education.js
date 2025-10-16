@@ -48,23 +48,28 @@ function DisplayEducation(education) {
 
         img.setAttribute("src", institucion.urlimg);
         img.setAttribute("alt", `${institucion.name} Logo`);
-        img.setAttribute("height", "100");
+        img.setAttribute("height", "auto");
         img.setAttribute("width", "100");
         img.setAttribute("loading", "lazy");
 
-        degreeTitle.textContent = institucion.grade_title;
+        degreeTitle.innerHTML = `<span><b>${institucion.grade_title}</b></span>`;
+
 
         universityName.textContent = institucion.name;
 
-        period.textContent = `Period: `;
+        period.innerHTML = `<b>Period:</b> ${institucion.start_year} - ${institucion.end_year}`;
 
-        languages.textContent = `Languages: `;
+        languages.innerHTML = `<b>Languages:</b> ${institucion.languages.join(", ")}`;
 
         divImg.append(img);
 
         divText.append(universityName, degreeTitle, period, languages);
 
+        divContainer.classList.add("university-container");
+
         divContainer.append(divImg, divText);
+
+        container.append(divContainer);
 
     });
 
