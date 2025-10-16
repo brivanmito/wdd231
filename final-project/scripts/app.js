@@ -5,12 +5,15 @@ import { LoadCertificates } from "./certificates.js";
 import { verifyVisit } from "./localstorage.js";
 import { GetYear } from "./date.js";
 import { InitWayfinding } from "./wayfinding.js";
+import { LoadProjects } from "./projects.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     InitWayfinding();
     AddHideNavigation();
     verifyVisit();
     GetYear();
+    LoadProjects();
+
 
     // ✅ Llama solo si el contenedor existe
     if (document.getElementById("technologies-container")) {
