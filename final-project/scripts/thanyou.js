@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const p = document.createElement("p");
 
+    const img = document.createElement("img");
+
     p.innerHTML = `
     Dear <strong>${firstName} ${lastName}</strong>,<br><br>
     Thank you for submitting your membership application on <strong>${currentDatef}</strong> for your organization, <strong>${businessName}</strong>.<br><br>
@@ -30,9 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
     Sincerely,<br>
     <strong>Bryan Miño</strong>`;
 
+    img.setAttribute("src", "./images/profile-picture.webp");
+    img.setAttribute("alt", "Bryan Signature");
+    img.setAttribute("width", 150);
+    img.setAttribute("height", "auto");
+    img.setAttribute("loading", "lazy");
 
 
-    containerf.append(p);
+    containerf.append(p, img);
     
 })
 
