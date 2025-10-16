@@ -59,6 +59,7 @@
         height: 100%;
     }
     #technologies-container {
+        gap: 20px;
         margin-top: 30px;
         grid-area: technologies-container;
     }

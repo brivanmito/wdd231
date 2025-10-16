@@ -179,7 +179,7 @@ h3, p {
     border-radius: 100%;
     width: 50%;
     height: auto;
-    background: linear-gradient(to right, #e23333, #e98b69);
+    background: linear-gradient(to right, #d13434, #ba6848);
 }
 #technologies-container {
     width: 100%;
@@ -188,7 +188,7 @@ h3, p {
     justify-content: center;
     align-items: center;
     background-color: #e98b69;
-    gap: 20px;
+    
     margin-top: 15px;
 }
 #technologies-container div {
